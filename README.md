@@ -1,4 +1,6 @@
 #PORTFOLIO
+Deployed Website : https://cmanent.github.io/Portfolio1/.
+
 My porftlio website show cases my abilities as a website developer. I truly love to style and play with color so my intention is to display my range as an artist. I developed a clean and highly stylized website, complete with an about me, contact page and project links. I included links to my Linked In and Git Hub profiles, where I have my best projects stared so any employer may inspect my work. So far I only have three major projects I feel comfertable displaying, with more soon to come! 
 
 I created an email specifically for employers as well, which is displayed on my page and Linked In account.
