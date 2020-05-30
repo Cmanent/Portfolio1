@@ -1,0 +1,322 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+body {
+  line-height: 1;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+nav ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+del {
+  text-decoration: line-through;
+}
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+input,
+select {
+  vertical-align: middle;
+}
+
+#myname {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 35px;
+  font-weight: bolder;
+  color: rgb(228, 225, 225);
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(26, 26, 68);
+  background-color: rgba(26, 26, 68, 0.589);
+  padding-left: 5%;
+  margin: 5% 10% 5% 5%;
+}
+
+.body {
+  background: url("https://egcc.edu/wp-content/uploads/2017/05/egcc-medical-coding-stock-photo.jpg")
+    no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#aboutme {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  padding-bottom: 10px;
+  color: rgb(32, 32, 126);
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(59, 180, 140);
+  background-color: rgba(59, 180, 140, 0.507);
+  padding: 10px;
+  margin: 5% 10% 20% 5%;
+}
+#aboutme:hover {
+  background-color: rgba(201, 195, 195, 0.74);
+}
+p {
+  padding-bottom: 10px;
+  text-align: center;
+}
+.row1 {
+  font-size: 20px;
+  color: whitesmoke;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type="submit"] {
+  background-color: rgb(12, 153, 16);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+input:hover {
+  background-color: rgb(26, 26, 68);
+}
+
+textarea {
+  height: 200px;
+  width: 500px;
+}
+
+.linked {
+  float: right;
+  color: white;
+  margin-left: 10%;
+  font-weight: bolder;
+}
+.git {
+  color: white;
+  font-weight: bolder;
+}
+.email {
+  color: black;
+  font-weight: bolder;
+}
+.headshot {
+  height: 200px;
+  width: 200px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(59, 180, 140);
+}
+
+.contactcard {
+  background-color: rgba(243, 243, 245, 0.973);
+  margin: 15% 20% 25% 37%;
+  padding: 15px;
+}
+#location {
+  color: black;
+}
+
+.col-label {
+  float: left;
+  width: 60%;
+  margin-top: 6px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  color: black;
+  font-size: 18px;
+}
+
+.col-placeholder {
+  float: right;
+  width: 60%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.containerportfolio {
+  padding: 60px;
+  align-content: center;
+}
+
+.card-body {
+  background-color: rgba(133, 130, 130, 0.404);
+}
+.card-title {
+  color: blue;
+  font-weight: bolder;
+}
+.card-text {
+  font-weight: bolder;
+  color: indigo;
+  text-align: left;
+}
+.card1 {
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: lightgray;
+}
